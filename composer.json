@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "RyanChandler\\Container\\": "src"
+        }
+    },
+    "provide": {
+        "psr/container-implementation": "^2.0"
+    },
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
